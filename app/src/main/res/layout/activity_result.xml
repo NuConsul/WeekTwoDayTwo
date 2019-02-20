@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chemwater.weektwodaytwo.ResultActivity">
+
+
+    <EditText
+        android:id="@+id/etCarMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="Car Make"/>
+
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_font_size"
+        android:hint="Car Model"/>
+
+
+    <EditText
+        android:id="@+id/etCarYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Year"/>
+
+    <EditText
+        android:id="@+id/etCarTitleStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Title Status"/>
+
+    <EditText
+        android:id="@+id/etCarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Color"/>
+
+    <EditText
+        android:id="@+id/etCarEngine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Engine"/>
+
+    <EditText
+        android:id="@+id/etCarTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Transmission"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnSendResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Result"
+        android:onClick="onClick"/>
+
+</LinearLayout>
+
